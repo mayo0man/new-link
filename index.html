@@ -7715,3 +7715,19 @@
   </script>
 </body>
 </html>
+const codZombiesGame = {
+      title: 'cod zombies',
+      desc: 'A fast-paced zombie shooter.',
+      url: 'nzp.gay',
+      image: 'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/master/images/cod-zombies.png',
+      popular: false,
+      secret: false,
+      openInProxy: true
+    };
+    if (Array.isArray(window.games)) {
+      window.games.unshift(codZombiesGame);
+    }
+
+    function openCodZombiesWindow() {
+      loadProxyViewer('nzp.gay');
+    }
